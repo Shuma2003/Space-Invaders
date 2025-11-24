@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+}
+
+#gameCanvas {
+    border: 3px solid #4169E1;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(65, 105, 225, 0.5);
+    background: #000;
+    display: block;
+}
